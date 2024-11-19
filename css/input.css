@@ -20,7 +20,12 @@
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Fraunces", serif;
+  &.russian {
+    font-family: "Fraunces", serif;
+  }
+  &.arabic {
+    font-family: "Noto Sans Arabic", sans-serif;
+  }
   main {
     .container {
       .title {
