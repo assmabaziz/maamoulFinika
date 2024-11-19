@@ -32,14 +32,12 @@ menuMobile.addEventListener("click", function () {
   }
 });
 window.addEventListener('scroll', () => {
-  const navbar = document.querySelector('nav'); // Replace '.navbar' with your navbar's selector
+  const navbar = document.querySelector('nav'); 
 
   if (window.scrollY > 100) {
-    navbar.classList.add('bg-white'); // Add a class to change the navbar's style
+    navbar.classList.add('bg-white');
   } else {
-    navbar.classList.remove('bg-white'); // Remove the class when at the top
+    navbar.classList.remove('bg-white'); 
   }
 });
-// $("#menuMobile").on('click', function (){
-//   $('.menu').toggle(500)
-// })
+
