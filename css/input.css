@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply md:max-w-screen-lg ;
+  }
+  .swiper-slide {
+    @apply flex items-center justify-center;
+  }
+  .swiper {
+    @apply w-full h-[500px];
+  }
+  .swiper-img {
+    @apply block w-full max-h-[500px];
+  }
+}
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Fraunces", serif;
+  main {
+    .container {
+      .title {
+        font-size: 6.5rem;
+        background: -webkit-linear-gradient(
+          rgba(224, 143, 56, 1),
+          rgba(227, 187, 143, 0.3)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      figure:hover {
+        &:hover {
+          box-shadow: 0 0 8px 3px #f89c39;
+        }
+
+        }
+    }
+    #gallery {
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.1) 100%,
+        rgba(255, 255, 255, 0.1) 100%
+      ),
+      url("/src/images/9.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+  }
+  footer {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1) 100%,
+        rgba(255, 255, 255, 0.1) 100%
+      ),
+      url("/src/images/maamoul_pistash.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}

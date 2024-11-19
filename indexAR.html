@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/src/images/logo.jpeg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/output.css" />
+
+    <title>Maamoul Finika</title>
+  </head>
+  <body class="bg-[#ffbe7369]">
+    <nav class="fixed top-0 left-0 right-0 z-50 shadow-md shadow-slate-300">
+      <div class="container flex justify-between items-center">
+        <div class="logo flex items-center gap-4">
+          <img src="./images/logo.jpeg" class="w-[60px]" alt="logo" />
+          <h1 class="uppercase font-extrabold">معمول فينيقا</h1>
+        </div>
+        <i class="fa-solid fa-bars text-3xl md:hidden" id="menuMobile"></i>
+        <div class="menu hidden md:flex" id="menu">
+          <ul class="gap-5 items-center flex flex-col md:flex-row">
+            <li class="uppercase duration-300 hover:text-[#f89c39]">
+              <a href="#home">الرئيسية</a>
+            </li>
+            <li class="uppercase duration-300 hover:text-[#f89c39]">
+              <a href="#aboutUs">من نحن</a>
+            </li>
+            <li class="uppercase duration-300 hover:text-[#f89c39]">
+              <a href="#ourMenu">قائمتنا</a>
+            </li>
+            <li class="uppercase duration-300 hover:text-[#f89c39]">
+              <a href="#testimonials">التقييمات</a>
+            </li>
+            <li class="uppercase duration-300 hover:text-[#f89c39]">
+              <a href="#contactUs">اتصل بنا</a>
+            </li>
+            <li class="uppercase">
+              <span><a href="index.html">рус</a></span> /
+              <span><a href="indexAR.html">ع</a></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="mt-[100px]">
+      <section id="home" class="mb-10">
+        <div class="container rounded-xl overflow-hidden">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/10.jpeg" class="swiper-img" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/11.jpeg" class="swiper-img" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/3.jpeg" class="swiper-img" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/5.jpeg" class="swiper-img" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/maamoul_dates.jpeg"
+                  class="swiper-img"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/7.jpeg" class="swiper-img" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/10.jpeg" class="swiper-img" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/9.jpeg" class="swiper-img" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/maamoul_pistash.jpeg"
+                  class="swiper-img"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="aboutUs" class="h-[1500px] md:h-[650px] lg:h-[550px] mb-4">
+        <div
+          class="container bg-[#e08f38] rounded-lg relative h-[400px] flex flex-col"
+        >
+          <div class="py-10 text-center w-1/2 mx-auto mb-5">
+            <h5 class="text-center text-4xl font-bold capitalize mb-4">
+              لماذا نحن؟
+            </h5>
+            <p>
+              نحضر المعمول بكل حب، نختار أفضل و أجود المكونات للحصول على أفضل
+              مذاق
+            </p>
+          </div>
+          <div class="grid md:grid-cols-3 gap-4 px-8">
+            <div
+              class="card bg-[#ffbe73b4] text-center p-3 rounded-lg duration-300 hover:scale-105"
+            >
+              <div class="mb-4">
+                <i
+                  class="fa-solid fa-heart text-8xl duration-300 hover:scale-110"
+                ></i>
+              </div>
+              <h2 class="mb-4 uppercase font-bold text-xl">معمول بحب</h2>
+              <p>
+                <i class="fa-solid fa-heart text-red-700"></i>
+                الان يمكنك أن تجرب المعمول السوري الأصيل دون الخروج من المنزل
+              </p>
+            </div>
+            <div
+              class="card bg-[#ffbe73b4] text-center p-3 rounded-lg duration-300 hover:scale-105"
+            >
+              <div class="mb-4">
+                <i
+                  class="fa-solid fa-gift text-8xl duration-300 hover:scale-110"
+                ></i>
+              </div>
+              <h2 class="mb-4 uppercase font-bold text-xl">المزايا و العروض</h2>
+              <p>لدينا دائما عروض حصرية و تخفيضات لكل الفئات</p>
+            </div>
+            <div
+              class="card bg-[#ffbe73b4] text-center p-3 rounded-lg duration-300 hover:scale-105"
+            >
+              <div class="mb-4">
+                <i
+                  class="fa-solid fa-truck text-8xl duration-300 hover:scale-110"
+                ></i>
+              </div>
+              <h2 class="mb-4 uppercase font-bold text-xl">خدمة التوصيل</h2>
+              <p>
+                خدمة التوصيل متوفرة في سانت بترسبورغ و باقي أنحاء روسيا، للمزيد
+                من المعلومات يرجى التواصل معنا على الواتس اب او عبر صفحاتنا على
+                مواقع التواصل الاجتماعي
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="ourMenu" class="mb-4">
+        <div class="container">
+          <h2 class="text-center title font-extrabold mb-5 capitalize">
+            قائمتنا
+          </h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+            <figure
+              class="rounded-lg overflow-hidden bg-white mx-3 md:mx-0 mb-3 border-[1px] border-gray-500 duration-300 group"
+            >
+              <picture>
+                <img
+                  src="./images/maamoul_dates.jpeg"
+                  class="w-full h-[180px] duration-300 group-hover:scale-105"
+                  alt="maamoul_dates"
+                />
+              </picture>
+              <figcaption class="text-center py-4">
+                <h3 class="text-2xl font-semibold capitalize">معمول التمر</h3>
+                <h4 class="text-xl font-medium">
+                  <span> 1200 </span>
+                  <span> روبل/كغ </span>
+                </h4>
+              </figcaption>
+            </figure>
+            <figure
+              class="rounded-lg overflow-hidden bg-white mx-3 md:mx-0 mb-3 border-[1px] border-gray-500 duration-300 group"
+            >
+              <picture>
+                <img
+                  src="./images/11.jpeg"
+                  class="w-full h-[180px] duration-300 group-hover:scale-105"
+                  alt="maamoul_pistachio"
+                />
+              </picture>
+              <figcaption class="text-center py-4">
+                <h3 class="text-2xl font-semibold capitalize">معمول الجوز</h3>
+                <h4 class="text-xl font-medium">
+                  <span> 1400 </span>
+                  <span> روبل/كغ </span>
+                </h4>
+              </figcaption>
+            </figure>
+            <figure
+              class="rounded-lg overflow-hidden bg-white mx-3 md:mx-0 mb-3 border-[1px] border-gray-500 duration-300 group"
+            >
+              <picture>
+                <img
+                  src="./images/maamoul_datess.jpeg"
+                  class="w-full h-[180px] duration-300 group-hover:scale-105"
+                  alt="maamoul_walnut"
+                />
+              </picture>
+              <figcaption class="text-center py-4">
+                <h3 class="text-2xl font-semibold capitalize">معمول الفستق</h3>
+                <h4 class="text-xl font-medium">
+                  <span> 1800 </span>
+                  <span> روبل/كغ </span>
+                </h4>
+              </figcaption>
+            </figure>
+            <figure
+              class="rounded-lg overflow-hidden bg-white mx-3 md:mx-0 mb-3 border-[1px] border-gray-500 duration-300 group"
+            >
+              <picture>
+                <img
+                  src="./images/maamoul_pistash.jpeg"
+                  class="w-full h-[180px] duration-300 group-hover:scale-105"
+                  alt="maaoul_mix"
+                />
+              </picture>
+              <figcaption class="text-center py-4">
+                <h3 class="text-2xl font-semibold capitalize">معمول مشكل</h3>
+                <h4 class="text-xl font-medium">
+                  <span> 1500 </span>
+                  <span> روبل/كغ </span>
+                </h4>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="h-screen">
+        <div class="container"></div>
+      </section>
+      <section id="testimonials" class="mb-10">
+        <div class="container">
+          <h2 class="text-center title font-extrabold mb-5 capitalize">
+            التقييمات
+          </h2>
+          <div class="mySwiper1 max-w-[85%] h-[500px] mx-auto">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.12.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating1"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.25.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating2"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.48.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.12.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating4"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.12.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating5"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.12.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating6"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.12.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating7"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.12.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating8"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/rating/WhatsApp Image 2024-11-15 at 10.17.12.jpeg"
+                  class="w-full h-[500px]"
+                  alt="rating9"
+                />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contactUs" class="py-10">
+      <div class="container flex justify-center items-center flex-col gap-y-5">
+        <!-- <h2 class="text-center title font-extrabold mb-5 capitalize">
+          contact us
+        </h2> -->
+        <div class="logo">
+          <a href="#" class="flex items-center gap-4">
+            <img src="./images/logo.jpeg" class="w-[60px]" alt="logo" />
+            <h2 class="uppercase font-extrabold">معمول فينيقا</h2>
+          </a>
+        </div>
+        <div class="">
+          <h2 class="text-2xl font-medium mb-4">اتصل بنا</h2>
+          <div class="text-cente flex items-center justify-start gap-4 mb-4">
+            <i
+              class="fa-brands fa-instagram text-3xl duration-500 hover:rotate-12 hover:text-[#f89c39]"
+            ></i>
+            <a
+              href="https://www.instagram.com/maamoul__finika?igsh=ZGgyazl6NGVnaWw0"
+              target="_blank"
+              >@ARABICSWEET2024</a
+            >
+          </div>
+          <div class="text-cente flex items-center justify-start gap-4 mb-4">
+            <i
+              class="fa-brands fa-whatsapp text-3xl duration-500 hover:rotate-12 hover:text-[#f89c39]"
+            ></i>
+            <p>+79315947051</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
