@@ -29,7 +29,7 @@ body {
   main {
     .container {
       .title {
-        font-size: 6.5rem;
+        font-size: 4rem;
         background: -webkit-linear-gradient(
           rgba(224, 143, 56, 1),
           rgba(227, 187, 143, 0.3)

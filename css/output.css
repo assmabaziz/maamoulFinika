@@ -747,32 +747,12 @@ video {
   width: 100%;
 }
 
-.max-w-\[80\%\] {
-  max-width: 80%;
+.max-w-\[60\%\] {
+  max-width: 60%;
 }
 
 .max-w-\[85\%\] {
   max-width: 85%;
-}
-
-.max-w-\[10\%\] {
-  max-width: 10%;
-}
-
-.max-w-\[75\%\] {
-  max-width: 75%;
-}
-
-.max-w-\[70\%\] {
-  max-width: 70%;
-}
-
-.max-w-\[65\%\] {
-  max-width: 65%;
-}
-
-.max-w-\[60\%\] {
-  max-width: 60%;
 }
 
 .resize {
@@ -856,16 +836,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity, 1));
 }
 
 .p-3 {
@@ -987,7 +957,7 @@ body {
   main {
     .container {
       .title {
-        font-size: 6.5rem;
+        font-size: 4rem;
         background: -webkit-linear-gradient(
           rgba(224, 143, 56, 1),
           rgba(227, 187, 143, 0.3)
