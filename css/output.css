@@ -811,10 +811,6 @@ video {
   border-width: 1px;
 }
 
-.border-none {
-  border-style: none;
-}
-
 .border-gray-500 {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
@@ -838,8 +834,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-transparent {
-  background-color: transparent;
+.bg-\[url\(\'\.\/images\/maamoul_pistash\.jpeg\'\)\] {
+  background-image: url('./images/maamoul_pistash.jpeg');
 }
 
 .p-3 {
@@ -854,11 +850,6 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-4 {
@@ -979,8 +970,8 @@ body {
       background: linear-gradient(
         rgba(255, 255, 255, 0.1) 100%,
         rgba(255, 255, 255, 0.1) 100%
-      ),
-      url("/src/images/9.jpeg");
+      ),url('../images/9.jpeg')
+      ;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -991,8 +982,7 @@ body {
     background: linear-gradient(
         rgba(255, 255, 255, 0.1) 100%,
         rgba(255, 255, 255, 0.1) 100%
-      ),
-      url("/src/images/maamoul_pistash.jpeg");
+      ),url('../images/maamoul_pistash.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1020,11 +1010,6 @@ body {
 .hover\:text-\[\#f89c39\]:hover {
   --tw-text-opacity: 1;
   color: rgb(248 156 57 / var(--tw-text-opacity, 1));
-}
-
-.focus\:outline-none:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
 
 .group:hover .group-hover\:scale-105 {

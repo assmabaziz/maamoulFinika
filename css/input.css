@@ -43,8 +43,8 @@ body {
       background: linear-gradient(
         rgba(255, 255, 255, 0.1) 100%,
         rgba(255, 255, 255, 0.1) 100%
-      ),
-      url("/images/9.jpeg");
+      ),url('../images/9.jpeg')
+      ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -52,11 +52,10 @@ body {
     }
   }
   footer {
-    background: linear-gradient(
+     background: linear-gradient(
         rgba(255, 255, 255, 0.1) 100%,
         rgba(255, 255, 255, 0.1) 100%
-      ),
-      url("/images/maamoul_pistash.jpeg");
+      ),url('../images/maamoul_pistash.jpeg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
